@@ -1,0 +1,13 @@
+2018-11-21
+
+Included here are 3 files besides this readme:
+(1) streak_recovery.ipynb (130 KB)
+(2) run-merged.tar.gz (100 MB)
+(3) check_fmo.txt (350 KB)
+
+Locally untar the run-merged.tar.gz file in the same dir where the notebook resides.
+The check_fmo.txt file should also be in the same dir
+
+You may need to make a change in your local astropy module, specifically in the file:
+astroquery/jplhorizons/__init__.py
+Change 'http' to 'https' in line 20.

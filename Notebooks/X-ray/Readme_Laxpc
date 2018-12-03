@@ -1,0 +1,35 @@
+ Readme LAXPC
+
+1. Install following packages
+a) astropy
+b) matplotlib
+c) numpy
+d) scipy
+
+2. Open the given fits file
+a) LAXPC events file
+b) LAXPC bary correction file
+c) gti file
+d) response matrix file
+
+3. Read data from the files and play around with some commands marked as '#'.
+
+4. Calculate Time difference between events and bary file.
+
+5. Plot lightcurves with and without including GTI*.
+a) Plot the lightcurve before applying GTI
+b) Apply GTI to the barycorrection file and obtain the gti time array.
+c) Plot the lightcurve after applying GTI.
+
+8. Calculating phase and fold it to obtain pulse profile.
+
+9. Make energy spectrum for time in GTI and energy below 80keV.
+
+10. Make PHA* spectrum for time in GTI and channel below 512.
+
+11. Read the response file and extract respone matrix and plot countour for it
+
+
+**GTI- Good Time Interval
+**
+
